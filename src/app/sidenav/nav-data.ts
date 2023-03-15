@@ -1,37 +1,27 @@
 export const navbarData = [
   {
-      routeLink: 'dashboard',
-      icon: 'fal fa-home',
-      label: 'Inico'
+      routeLink: 'home',
+      icon: 'bi bi-house-door',
+      label: 'Inicio'
   },
   {
-      routeLink: 'productos',
-      icon: 'fal fa-box-open',
-      label: 'Products'
+      routeLink: 'catalogo-ejemplo',
+      icon: 'bi bi-grid',
+      label: 'Catálogos'
   },
   {
-      routeLink: 'estadisticar',
-      icon: 'fal fa-chart-bar',
-      label: 'Estadisticas'
+      routeLink: 'catalogo-ejemplo',
+      icon: 'bi bi-fuel-pump',
+      label: 'Movimientos'
   },
   {
-      routeLink: 'cupones',
-      icon: 'fal fa-tags',
-      label: 'Cupones'
-  },
-  {
-      routeLink: 'paginas',
-      icon: 'fal fa-file',
-      label: 'Páginas'
-  },
-  {
-      routeLink: 'redes-sociales',
-      icon: 'fal fa-camera',
-      label: 'Redes Sociales'
-  },
-  {
-      routeLink: 'configuraciones',
-      icon: 'fal fa-cog',
+      routeLink: 'catalogo-ejemplo',
+      icon: 'bi bi-gear',
       label: 'Configuraciones'
+  },
+  {
+      routeLink: 'catalogo-ejemplo',
+      icon: 'bi bi-file-earmark-richtext',
+      label: 'Reportes'
   },
 ];

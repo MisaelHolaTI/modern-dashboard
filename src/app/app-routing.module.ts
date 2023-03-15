@@ -1,23 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CoupensComponent } from './coupens/coupens.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { MediaComponent } from './media/media.component';
-import { PagesComponent } from './pages/pages.component';
-import { ProductsComponent } from './products/products.component';
-import { SettingsComponent } from './settings/settings.component';
-import { StatisticsComponent } from './statistics/statistics.component';
+import { HomeComponent } from './home/home.component';
+import { SectionExampleComponent } from './section-example/section-example.component';
+
 
 const routes: Routes = [
   {path: '', redirectTo: 'dashboard', pathMatch: 'full'},
-  {path: 'dashboard', component: DashboardComponent},
-  {path: 'productos', component: ProductsComponent},
-  {path: 'estadisticas', component: StatisticsComponent},
-  {path: 'cupones', component: CoupensComponent},
-  {path: 'paginas', component: PagesComponent},
-  {path: 'redes-sociales', component: MediaComponent},
-  {path: 'configuraciones', component: SettingsComponent}
-];
+  {path: 'home', component: HomeComponent},
+  {path: 'catalogo-ejemplo', component: SectionExampleComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
