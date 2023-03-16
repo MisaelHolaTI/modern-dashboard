@@ -5,9 +5,14 @@ import { SectionExampleComponent } from './section-example/section-example.compo
 
 
 const routes: Routes = [
-  {path: '', redirectTo: 'dashboard', pathMatch: 'full'},
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
-  {path: 'catalogo-ejemplo', component: SectionExampleComponent}];
+  {path: 'consumos', component: SectionExampleComponent},
+  {path: 'notificaciones', component: SectionExampleComponent},
+  {path: 'catalogos', component: SectionExampleComponent},
+  {path: 'reportes', component: SectionExampleComponent},
+  {path: 'mi-cuenta', component: SectionExampleComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

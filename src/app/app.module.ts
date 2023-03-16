@@ -8,6 +8,7 @@ import { BodyComponent } from './body/body.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HomeComponent } from './home/home.component';
 import { SectionExampleComponent } from './section-example/section-example.component';
+import { SublevelMenuComponent } from './sidenav/sublevel-menu.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SectionExampleComponent } from './section-example/section-example.compo
     BodyComponent,
     SidenavComponent,
     HomeComponent,
-    SectionExampleComponent
+    SectionExampleComponent,
+    SublevelMenuComponent,
   ],
   imports: [
     BrowserModule,
